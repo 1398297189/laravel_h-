@@ -1,4 +1,4 @@
-# Laravel£¨php¿ò¼Ü£© + H+ £¨Ç°¶Ë¿ò¼Ü£©
+# Laravelï¼ˆphpæ¡†æ¶ï¼‰ + H+ ï¼ˆå‰ç«¯æ¡†æ¶ï¼‰
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
