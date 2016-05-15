@@ -128,10 +128,10 @@ class AuthController extends BaseController
 
         $PermissionList = $SysRolePermission->getPermissionList($data);
         $MenusList = $SysMenus->getMenusList();
-        $FunctionsList = $SysFunctions->getFunctionsList();
+        //$FunctionsList = $SysFunctions->getFunctionsList();
 
         $MenusList = $this->node_merge($MenusList);
-        $FunctionsList = $this->node_merge($FunctionsList);
+        //$FunctionsList = $this->node_merge($FunctionsList);
 
         $PermissionIdArr = [];
         if(!empty($PermissionList)){
@@ -142,7 +142,7 @@ class AuthController extends BaseController
         $data = [
             'PermissionIdArr'=>$PermissionIdArr,
             'MenusList'=>$MenusList,
-            'FunctionsList'=>$FunctionsList,
+            //'FunctionsList'=>$FunctionsList,
             'role_id'=>$id,
             'roleName'=>$roleName
         ];

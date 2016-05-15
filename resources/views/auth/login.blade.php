@@ -50,7 +50,7 @@
                 {!! csrf_field() !!}
 
                 <div class="form-group">
-                    <input type="text" class="form-control" name="admin_name" placeholder="用户名" required="">
+                    <input type="text" class="form-control" name="username" placeholder="用户名" required="">
                 </div>
 
                 <div class="form-group">

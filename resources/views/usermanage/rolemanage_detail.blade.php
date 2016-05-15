@@ -51,7 +51,7 @@
         <div class="ibox float-e-margins">
             <div class="ibox-title">
                 <h5>{{ @$roleName }}</h5>
-                <a href="javascript:history.go(-1)" class="btn btn-primary"  style="background:#16BEB0;border:1px solid #16BEB0;margin:0;float:right;margin-top:-10px;">返&nbsp;&nbsp;回</a>
+                <span onclick="history.go(-1)" class="btn btn-primary"  style="background:#16BEB0;border:1px solid #16BEB0;margin:0;float:right;margin-top:-10px;">返&nbsp;&nbsp;回</span>
             </div>
             <div class="ibox-content">
                 <div style="margin-top: 10px;display: none;">

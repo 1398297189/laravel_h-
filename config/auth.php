@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\Entities\StockSir\Admin::class,
+            'model' => App\Entities\Sys\User::class,
         ],
 
         // 'users' => [
